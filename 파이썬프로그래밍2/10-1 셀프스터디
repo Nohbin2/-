@@ -1,0 +1,13 @@
+from tkinter import *
+window = Tk()
+
+photo = PhotoImage(file = "C:/Users/Cju/Desktop/images/GIF/cat.gif")
+photo2 = PhotoImage(file = "C:/Users/Cju/Desktop/images/GIF/cat2.gif")
+label1 = Label(window, image = photo) ##이미지는 속성 벨류 포토 ##
+label2 = Label(window, image = photo2)
+
+
+label1.pack(side=LEFT)
+label2.pack(side=LEFT)
+
+window.mainloop()
