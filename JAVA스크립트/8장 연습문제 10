@@ -1,0 +1,10 @@
+<script>
+
+     for(i=1, sum = 0;i<=100;i++)
+     {
+
+       sum+=i;
+     }
+      alert(sum)
+    
+</script>
